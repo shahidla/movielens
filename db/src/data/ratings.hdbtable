@@ -1,4 +1,4 @@
-COLUMN TABLE "movielens.db.data::ratings"(
+COLUMN TABLE "ratings"(
     "USERID"     INTEGER CS_INT NOT NULL,
     "MOVIEID"    INTEGER CS_INT NOT NULL,
     "RATING"     DOUBLE CS_DOUBLE,

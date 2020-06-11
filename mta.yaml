@@ -3,11 +3,14 @@ _schema-version: '2.1'
 version: 0.0.1
 
 modules:
- - name: db
+ 
+
+
+ - name: db1
    type: hdb
    path: db
    requires:
-    - name: hdi_db
+    - name: hdi_db1
 
 resources:
  - name: hdi_db
@@ -17,3 +20,9 @@ resources:
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+
+ - name: hdi_db1
+   properties:
+      hdi-container-name_2: ${service-name}
+   type: com.sap.xs.hdi-container
+

@@ -1,4 +1,4 @@
-COLUMN TABLE "movielens.db.data::tags"(
+COLUMN TABLE "tags"(
     "USERID"     INTEGER CS_INT NOT NULL,
     "MOVIEID"    INTEGER CS_INT NOT NULL,
     "TAG"        VARCHAR(255) NOT NULL,

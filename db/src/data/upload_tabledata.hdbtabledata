@@ -10,9 +10,9 @@
       },
       "source_data" : {
         "data_type" : "CSV", "has_header" : true, "dialect"   : "HANA",
-        "file_name" : "movielens.db.data::links.csv"
+        "file_name" : "links.csv"
       },
-      "target_table" : "movielens.db.data::links"  
+      "target_table" : "links"  
     },
     {
       "column_mappings" : { "MOVIEID" : "movieId",        "TITLE" : "title",        "GENRES" : "genres"      },
@@ -22,9 +22,9 @@
       },
       "source_data" : {
         "data_type" : "CSV", "has_header" : true, "dialect"   : "HANA",
-        "file_name" : "movielens.db.data::movies.csv"
+        "file_name" : "movies.csv"
       },
-      "target_table" : "movielens.db.data::movies"  
+      "target_table" : "movies"  
     },
     {
       "column_mappings" : { "USERID" : "userId",        "MOVIEID" : "movieId",        "RATING" : "rating",        "TIMESTAMP": "timestamp"      },
@@ -34,9 +34,9 @@
       },
       "source_data" : {
         "data_type" : "CSV", "has_header" : true, "dialect"   : "HANA",
-        "file_name" : "movielens.db.data::ratings.csv"
+        "file_name" : "ratings.csv"
       },
-      "target_table" : "movielens.db.data::ratings"  
+      "target_table" : "ratings"  
     },
     {
       "column_mappings" : { "USERID" : "userId",        "MOVIEID" : "movieId",        "TAG" : "tag",        "TIMESTAMP": "timestamp"      },
@@ -46,9 +46,9 @@
       },
       "source_data" : {
         "data_type" : "CSV", "has_header" : true, "dialect"   : "HANA",
-        "file_name" : "movielens.db.data::tags.csv"
+        "file_name" : "tags.csv"
       },
-      "target_table" : "movielens.db.data::tags"  
+      "target_table" : "tags"  
     }    
   ]
 }
