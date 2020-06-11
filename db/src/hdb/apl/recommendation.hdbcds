@@ -1,5 +1,5 @@
+namespace aa.movielens.db.hdb.apl;
 
- 
 context recommendation {
     entity function_header {
         KEY   : String(50);
